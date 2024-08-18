@@ -1,0 +1,14 @@
+.test{
+    &-h1{
+        color: red;
+        &:nth-child(2){
+            color: green;
+        }
+        &:first-child{
+            color: blue;
+        }
+        &.active{
+           text-decoration: underline; 
+        }
+    }
+}

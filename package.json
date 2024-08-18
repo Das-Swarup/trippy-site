@@ -1,5 +1,5 @@
 {
-	"name": "saasbold-lite",
+	"name": "flytrail",
 	"version": "0.1.0",
 	"private": true,
 	"engines": {
@@ -19,6 +19,7 @@
 		"test-build": "npm run check-style && npm run build"
 	},
 	"dependencies": {
+		"firebase": "^10.13.0",
 		"next": "14.0.4",
 		"next-themes": "^0.2.1",
 		"nextjs-toploader": "^1.6.6",
@@ -41,6 +42,7 @@
 		"postcss": "^8",
 		"prettier": "^3.1.1",
 		"prettier-plugin-tailwindcss": "^0.5.11",
+		"sass": "^1.77.8",
 		"tailwindcss": "^3.3.0",
 		"typescript": "^5.3.3"
 	}
